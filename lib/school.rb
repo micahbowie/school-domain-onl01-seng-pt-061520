@@ -1,8 +1,6 @@
-SCHOOL = {}
-class School 
-  def initialize(name)
-     SCHOOL 
-     
-    end 
-    
-end 
+class School
+
+  def initialize(school_name)
+    @school_name = school_name
+    @roster = {}
+  end
