@@ -6,8 +6,10 @@ attr_reader :roster
   end
   
   def add_student(my_name, grade)
-    roster[grade] = []
+   if roster.key?(grade)
     roster[grade] << my_name
+  else roster[grade]
+    
   end 
     
 end 
