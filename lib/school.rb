@@ -7,7 +7,7 @@ attr_reader :roster
   
   def add_student(my_name, grade)
     roster[grade] = []
-    roster[grade] << my_name
+    grade.each  << my_name
     do 
   end 
     
