@@ -1,3 +1,4 @@
 class School 
-   def intialize
+   def initialize
+     SCHOOL = {}
 end 
