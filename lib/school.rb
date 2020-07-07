@@ -10,6 +10,7 @@ attr_reader :roster
     roster[grade] << my_name
     my_name.each do |student|
     roster[grade] << student
+    end 
   end 
     
 end 
