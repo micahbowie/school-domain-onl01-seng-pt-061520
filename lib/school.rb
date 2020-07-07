@@ -1,6 +1,6 @@
 class School 
    def initialize
-     SCHOOL => {}
+     SCHOOL 
     end 
     
 end 
